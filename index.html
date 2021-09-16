@@ -52,7 +52,10 @@
         let a = document.getElementById("a").value;
         let b = document.getElementById("b").value;
         let outcome;
-        if (b==".") {
+        if (a=="") {
+            outcome = "Do you even feel, bro?"
+        }
+        else if (b==".") {
             outcome = a+"-tastic"+b+" That's it"+b
         }
         else if (b=="!") {
@@ -63,9 +66,6 @@
         }
         else if (b=="...") {
             outcome = a+"-tastic"+b+"ish"+b
-        }
-        else {
-            outcome = "Do you even feel, bro?"
         }
         document.getElementById("theResult").innerHTML = outcome;
      }
