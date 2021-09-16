@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+ <meta charset="utf-8">
+ <title>index</title>
+ <style>
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        background-color: blue;
+        text-align: center;
+        color: aqua;
+    }
+    h1, button {
+        background-color: aqua;
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    button, input, select {
+        font-size: large;
+    }
+    button {
+        border-width: 3px;
+        border-color: darkblue;
+    }
+    input {
+        width: 10ch;
+        border-width: 5px;
+        border-radius: 5px;
+        border-color:black;
+    }
+    select {
+        border-width: 5px;
+        border-radius: 5px;
+        border-color:black;
+    }
+    #theResult {
+        font-size:x-large;
+        font-weight:bolder;
+    }
+    button:hover {
+        background-color: lightpink;
+    }
+    button:active {
+        color: maroon;
+    }
+</style>
+ <script>
+     function gitTest () {
+        let a = document.getElementById("a").value;
+        let b = document.getElementById("b").value;
+        let outcome;
+        if (b=".") {
+            outcome = a+"-tastic"+b+" That's it"+b
+        }
+        else if (b="!") {
+            outcome = a+"-tastic"+b
+        }
+        else if (b="?") {
+            outcome = a+"-tastic"+b+" Maybe"+b
+        }
+        else if (b="...") {
+            outcome = a+"-tastic"+b+"ish"+b
+        }
+        else {
+            outcome = "Do you even feel, bro?"
+        }
+        document.getElementById("theResult").innerHTML = outcome;
+     }
+ </script>
+</head>
+<body>
+    <h1>How do you feel?</h1>
+    <input type="text" id="a">
+    <select id = "b">  
+        <option>.</option>  
+        <option>!</option>  
+        <option>?</option>  
+        <option>...</option>  
+    </select>  
+    <button type="button" onclick="gitTest()">test it out</button><br>
+    <div id="theResult"></div>
+</body>
+<br>
+<br>
+<footer>
+    <a href="https://www.byui.edu/" target="_blank"><button type="button">BYUI Homepage</button></a>
+</footer>
+</html>
