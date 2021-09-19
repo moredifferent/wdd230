@@ -1,4 +1,5 @@
-let lmdate = document.lastModified;
-document.getElementById("datelm").innerHTML = lmdate;
+let lmdate = document.lastModified();
 let cdate = new Date();
-$("#idcyear").innerHTML = cdate.getFullYear();
+onload (
+    document.getElementById("datelm").innerHTML = lmdate,
+    document.getElementById("cyear").innerHTML = cdate.getFullYear())
