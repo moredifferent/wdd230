@@ -23,11 +23,11 @@
         border: 5px solid white;
         box-shadow: 5px 5px 5px #2274a5;
       } 
-      nav a:hover {
-        background-color: #ef6461;
+      nav a:hover, footer a:hover {
+        color: #ef6461;
         }
-      nav a:active {
-          color: #2274a5;
+      nav a:active, footer a:active {
+        color: #2274a5;
         }
       p {
         padding-left: .4em;
@@ -47,10 +47,4 @@
       }
       .datea {
         color: greenyellow;
-      }
-      footer a:hover {
-        color: #ef6461;
-      }
-      footer a:active {
-        color: #2274a5;
       }
