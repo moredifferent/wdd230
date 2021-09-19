@@ -22,7 +22,7 @@
       img {
         position: absolute;
         max-width: 200px;
-        align-self: right;
+        align-content: right;
         margin-top: 1em;
         margin-right: 1em;
         border: 5px solid white;
@@ -51,12 +51,11 @@
         padding: 1em;
       }
     </style>
-    <script> {
+    <script>
         let lmdate = document.lastModified();
             document.getElementById("datelm").innerHTML = lmdate;
         let cdate = new Date();
             $("#cyear").innerHTML = cdate.getFullYear();
-        }
     </script>
 </head>
 
@@ -79,7 +78,7 @@
     </p>
   </main>
     <footer> 
-      &copy; <div id="cyear"></div> | Joseph Manookin | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
+      &copy; <span id="cyear"></span> | Joseph Manookin | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
       Last updated: <div id="datelm"></div> 
     </footer>
   </div>
