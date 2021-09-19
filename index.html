@@ -20,18 +20,19 @@
           text-align: center;
       }
       img {
-        position: relative;
+        position: absolute;
         max-width: 200px;
-        align-content: right;
+        display: grid;
+        grid-column: 4;
         margin-top: -1em;
         margin-right: 1em;
         border: 5px solid white;
         box-shadow: 5px 5px 5px #2274a5;
       } 
-      nav:hover{
+      nav a:hover{
           background-color: #ef6461;
         }
-      nav:active{
+      nav a:active{
           color: #2274a5;
         }
       p {
@@ -52,10 +53,12 @@
       }
     </style>
     <script> 
+      function lastmod () {
         let lmdate = document.lastModified();
-            document.getElementById("datelm").innerHTML = lmdate;
+        document.getElementById("datelm").innerHTML = lmdate;}
+      function yr () {
         let cdate = new Date();
-            document.getElementById("cyear").innerHTML = cdate.getFullYear();
+        document.getElementById("cyear").innerHTML = cdate.getFullYear();}
     </script>
 </head>
 
@@ -78,8 +81,8 @@
     </p>
   </main>
     <footer> 
-      &copy; <span id="cyear"></span> | Joseph Manookin | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
-      Last updated: <div id="datelm"></div> 
+      &copy; <span src=yr() id="cyear"></span> | Joseph Manookin | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
+      Last updated: <div src=lastmod() id="datelm"></div> 
     </footer>
   </div>
 </body>
