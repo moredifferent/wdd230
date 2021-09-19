@@ -13,9 +13,15 @@
         border-radius: 10px;
         padding: .3em;
       } 
+      h1 {
+          margin-left: 10em;
+      }
+      footer {
+          text-align: center;
+      }
       img {
         max-width: 200px;
-        justify-self: end;
+        align-self: end;
         margin-top: 1em;
         margin-right: 1em;
         border: 5px solid white;
@@ -45,10 +51,10 @@
       }
     </style>
     <script> {
-        let lmdate = document.lastModified;
-        document.getElementById("datelm").innerHTML = lmdate;
+        let lmdate = document.lastModified();
+            document.getElementById("datelm").innerHTML = lmdate;
         let cdate = new Date();
-        $("#idcyear").innerHTML = cdate.getFullYear();
+            $("#cyear").innerHTML = cdate.getFullYear();
         }
     </script>
 </head>
@@ -64,9 +70,9 @@
     <p>
      <nav>
         <ul>
-            <li>Lesson 2<a href="ltwo.html">L2 Assignment</a></li>
-            <li>Lesson 3<a href="lthree.html">L3 Assignment</a></li>
-            <li>Lesson 4<a href="lfour.html">L4 Assignment</a></li>
+            <li>Lesson 2: <a href="ltwo.html">L2 Assignment</a></li>
+            <li>Lesson 3: <a href="lthree.html">L3 Assignment</a></li>
+            <li>Lesson 4: <a href="lfour.html">L4 Assignment</a></li>
         </ul>
      </nav>
     </p>
