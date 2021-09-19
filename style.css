@@ -8,6 +8,10 @@
       h1 {
           padding-left: 5em;
       }
+      h2 {
+          border-bottom: 2px;
+          border-bottom: grey;
+      }
       footer {
           text-align: center;
       }
@@ -40,4 +44,7 @@
       main {
         background-color: #C5D5EA;
         padding: 1em;
+      }
+      #datea {
+          color: greenyellow;
       }
