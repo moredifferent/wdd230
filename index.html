@@ -19,7 +19,7 @@
       footer {
           text-align: center;
       }
-      img {
+      header a img{
         position: absolute;
         max-width: 200px;
         display: grid;
@@ -53,12 +53,12 @@
       }
     </style>
     <script> 
-      function lastmod () {
         let lmdate = document.lastModified();
-        document.getElementById("datelm").innerHTML = lmdate;}
-      function yr () {
+        return lmdate;
+        document.getElementById("datelm").innerHTML = lmdate;
         let cdate = new Date();
-        document.getElementById("cyear").innerHTML = cdate.getFullYear();}
+        return cdate;
+        document.getElementById("cyear").innerHTML = cdate.getFullYear();
     </script>
 </head>
 
@@ -81,8 +81,8 @@
     </p>
   </main>
     <footer> 
-      &copy; <span src=yr() id="cyear"></span> | Joseph Manookin | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
-      Last updated: <div src=lastmod() id="datelm"></div> 
+      &copy; <span id="cyear"></span> | Joseph Manookin | Washington | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
+      Last updated: <div id="datelm"></div> 
     </footer>
   </div>
 </body>
