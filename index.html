@@ -5,8 +5,51 @@
     <title>WDD230 Assignment Portal | Joe Manookin | Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style src="../styles.css?raw=true"></style>
-    <script src="../script.js?raw=true"></script>
+    <style>
+      h1, footer {
+        background-color: #3D5A80;
+        color: #C5D5EA;
+        font-family: Georgia, Lucida Bright, serif;
+        border-radius: 10px;
+        padding: .3em;
+      } 
+      img {
+        max-width: 200px;
+        justify-self: end;
+        margin-top: 1em;
+        margin-right: 1em;
+        border: 5px solid white;
+        box-shadow: 5px 5px 5px #2274a5;
+      } 
+      nav:hover{
+          background-color: #ef6461;
+        }
+      nav:active{
+          color: #2274a5;
+        }
+      p {
+        padding-left: .4em;
+        padding-right: .4em;
+      }
+      #content {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      body {
+        background-color: #3D5A80;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      main {
+        background-color: #C5D5EA;
+        padding: 1em;
+      }
+    </style>
+    <script>
+        let lmdate = document.lastModified;
+        document.getElementById("datelm").innerHTML = lmdate;
+        let cdate = new Date();
+        $("#idcyear").innerHTML = cdate.getFullYear();
+    </script>
 </head>
 
 <body>
