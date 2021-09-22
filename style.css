@@ -9,8 +9,8 @@
         padding-left: 5em;
       }
       h2 {
-        border-color: darkgrey;
-        border-width: 3px;
+        text-decoration: underline;
+        text-decoration: darkgrey;
       }
       footer {
         text-align: center;
@@ -23,15 +23,15 @@
         border: 5px solid white;
         box-shadow: 5px 5px 5px #2274a5;
       } 
+      footer a:visited {
+        color: #C5D5EA;
+      }
       nav a:hover, footer a:hover {
         color: #ef6461;
         }
       nav a:active, footer a:active {
         color: #2274a5;
         }
-      footer a:visited {
-        color: #C5D5EA;
-      }
       p {
         padding-left: .4em;
         padding-right: .4em;
