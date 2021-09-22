@@ -9,8 +9,8 @@
         padding-left: 5em;
       }
       h2 {
-        border-bottom: darkgrey;
-        border-bottom: 3px;
+        border-color: darkgrey;
+        border-width: 3px;
       }
       footer {
         text-align: center;
