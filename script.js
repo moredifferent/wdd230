@@ -1,5 +1,5 @@
-$(document).ready(function modate () {
-    document.getElementById("datelm").innerHTML = document.lastModified;},
+function modate () {
+    document.getElementById("datelm").innerHTML = document.lastModified;}
 function copyr () {
     const d = new Date();
-    $("#cyear").innerHTML = d.getFullYear();})
+    $("#cyear").innerHTML = d.getFullYear();}
