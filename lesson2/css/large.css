@@ -4,7 +4,7 @@ html {
     grid-template-columns: 3;
     grid-gap: 1em;
 }
-body, h1, h2 {
+body, h1 {
     font-family: 'Rubik', sans-serif;
 }
 h1 {
@@ -12,4 +12,19 @@ h1 {
     grid-column-end: 2;
     color: silver;
     background-color: teal;
+}
+h2 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    color: teal;
+    background-color: silver;
+}
+h3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: silver;
+    background-color: teal;
+}
+body {
+    background-color: lavenderblush;
 }
