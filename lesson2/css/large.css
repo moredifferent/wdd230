@@ -28,3 +28,7 @@ h3 {
 body {
     background-color: lavenderblush;
 }
+h1, h2, h3 {
+    border-radius: 10px;
+    padding: .3em;
+}
