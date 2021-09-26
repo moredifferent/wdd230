@@ -1,4 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+html {
+    display: grid;
+    grid-template-columns: 3;
+    grid-gap: 1em;
+}
 body, h1, h2 {
     font-family: 'Rubik', sans-serif;
+}
+h1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: silver;
+    background-color: teal;
 }
