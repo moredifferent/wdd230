@@ -17,6 +17,13 @@ h2 {
     color: teal;
     background-color: silver;
 }
+h1, h2, h3 {
+    border-radius: 10px;
+    padding: .3em;
+}
+nav {
+    background-color: silver;
+}
 #top {
     grid-column-start: 2;
     grid-column-end: 3;
