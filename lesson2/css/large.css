@@ -30,6 +30,10 @@ nav {
 #top {
     text-align: center;
 }
+#top, nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 #p1, #p3 {
     grid-column-start: 1;
     grid-column-end: 2;
