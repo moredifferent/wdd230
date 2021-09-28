@@ -2,12 +2,15 @@
 #content {
     max-width: 960px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
 }
 body, h1 {
     font-family: 'Rubik', sans-serif;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    background-color: darkslategrey;
 }
 h1, h3 {
     color: silver;
@@ -23,11 +26,8 @@ h1, h2, h3 {
 }
 nav {
     background-color: silver;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
 #top {
-    grid-column: 2;
     text-align: center;
 }
 #p1, #p3 {
@@ -35,11 +35,8 @@ nav {
     grid-column-end: 2;
 }
 #p2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-body {
-    background-color: darkslategrey;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 h1, h2, h3 {
     border-radius: 10px;
@@ -47,11 +44,11 @@ h1, h2, h3 {
 }
 #p1 h3, #p3 h3 {
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 #p2 h3 {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
 }
 img {
     max-width: 320px;
