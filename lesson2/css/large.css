@@ -28,6 +28,7 @@ nav {
 }
 #top {
     grid-column: 2;
+    text-align: center;
 }
 #p1, #p3 {
     grid-column-start: 1;
