@@ -17,15 +17,15 @@ h2 {
     background-color: silver;
 }
 #top {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 #p1, #p3 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
 }
 #p2 {
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 4;
 }
 body {
