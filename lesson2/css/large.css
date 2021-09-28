@@ -7,23 +7,25 @@ html {
 body, h1 {
     font-family: 'Rubik', sans-serif;
 }
-h1 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+h1, h3 {
     color: silver;
     background-color: teal;
 }
 h2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
     color: teal;
     background-color: silver;
 }
-h3 {
+#top {
     grid-column-start: 2;
     grid-column-end: 3;
-    color: silver;
-    background-color: teal;
+}
+#p1, #p3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#p2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 body {
     background-color: lavenderblush;
@@ -31,4 +33,15 @@ body {
 h1, h2, h3 {
     border-radius: 10px;
     padding: .3em;
+}
+img {
+    max-width: 300px;
+}
+#gc, #camp {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#tb {
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
