@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
-html {
+#content {
+    max-width: 960;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
@@ -16,15 +17,15 @@ h2 {
     background-color: silver;
 }
 #top {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 #p1, #p3 {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
 }
 #p2 {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
 }
 body {
@@ -33,6 +34,10 @@ body {
 h1, h2, h3 {
     border-radius: 10px;
     padding: .3em;
+}
+h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 img {
     max-width: 300px;
