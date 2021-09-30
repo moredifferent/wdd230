@@ -50,7 +50,7 @@ h1, h2, h3 {
     grid-column: 1, 2;
 }
 img {
-    max-width: 320px;
+    max-width: 300px;
 }
 #gc, #camp {
     grid-column: 3;
