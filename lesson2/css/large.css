@@ -9,7 +9,7 @@
 }
 header {
     text-align: center;
-    grid-column: span;
+    grid-column: unset;
 }
 body {
     background-color: darkslategrey;
