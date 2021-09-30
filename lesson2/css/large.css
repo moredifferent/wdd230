@@ -2,14 +2,16 @@
 #content {
     max-width: 960px;
     margin: 0 auto;
-}
-body, h1 {
-    font-family: 'Rubik', sans-serif;
-}
-body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
+    font-family: 'Rubik', sans-serif;
+}
+header {
+    text-align: center;
+    grid-column: span;
+}
+body {
     background-color: darkslategrey;
 }
 h1, h3 {
@@ -27,9 +29,6 @@ h1, h2, h3 {
 nav {
     background-color: silver;
     padding: .3em;
-}
-header {
-    text-align: center;
 }
 img {
     max-width: 300px;
