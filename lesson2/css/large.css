@@ -9,7 +9,8 @@
 }
 header {
     text-align: center;
-    grid-column: span;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 body {
     background-color: darkslategrey;
