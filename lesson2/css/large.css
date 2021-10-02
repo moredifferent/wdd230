@@ -32,9 +32,13 @@ nav {
 }
 img {
     max-width: 300px;
+    grid-column: 3;
 }
 #p1, #p2, #p3 {
     grid-column: 1;
+}
+h3 {
+    grid-column: 2;
 }
 nav a, nav a:visited {
     color:navy;
