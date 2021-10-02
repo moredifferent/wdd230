@@ -25,7 +25,7 @@ h2 {
 }
 h1, h2, h3, nav {
     border-radius: 10px;
-    padding: .3em;
+    padding: .5em;
 }
 nav {
     background-color: lightslategray;
