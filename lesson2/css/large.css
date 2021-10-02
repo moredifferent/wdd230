@@ -22,13 +22,12 @@ h2 {
     color: teal;
     background-color: silver;
 }
-h1, h2, h3 {
+h1, h2, h3, nav {
     border-radius: 10px;
     padding: .3em;
 }
 nav {
-    background-color: silver;
-    padding: .3em;
+    background-color: lightslategray;
 }
 img {
     max-width: 300px;
