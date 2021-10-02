@@ -34,6 +34,15 @@ nav {
 img {
     max-width: 300px;
 }
+#p1 {
+    grid-row: 2;
+}
+#p2 {
+    grid-row: 3;
+}
+#p3 {
+    grid-row: 4;
+}
 nav a, nav a:visited {
     color:navy;
 }
