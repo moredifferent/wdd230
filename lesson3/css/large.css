@@ -55,6 +55,8 @@ h3 {
 h4 {
     color: #2e4057;
     padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 nav {
     background-color: #8c86aa;
