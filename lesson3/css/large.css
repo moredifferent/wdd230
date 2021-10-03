@@ -13,7 +13,7 @@ header {
     grid-column-end: 4;
 }
 #logo {
-    max-width: 100%;
+    max-width: 500px;
 }
 nav ul {
     list-style: none;
