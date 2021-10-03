@@ -49,8 +49,9 @@ nav {
     background-color: #8c86aa;
 }
 img {
-    max-width: 300px;
-    grid-column: 3;
+    max-width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 #p1, #p2, #p3 {
     grid-column: 1;
