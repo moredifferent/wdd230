@@ -27,7 +27,7 @@ h1, h3 {
     background-color: #2e4057;
 }
 #top {
-    animation:blinkingText 2s infinite;
+    animation:blinkingText 2.5s infinite;
     }
     @keyframes blinkingText{
     0%{   color: #000;   }
