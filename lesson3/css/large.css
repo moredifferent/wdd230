@@ -52,6 +52,14 @@ h3 {
     border-radius: 10px;
     padding: .6em; 
 }
+#snips {
+    max-width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+h2, h3 {
+    grid-column: 1;
+}
 h4 {
     color: #2e4057;
     padding: 1em;
@@ -60,14 +68,6 @@ h4 {
 }
 nav {
     background-color: #8c86aa;
-}
-#snips {
-    max-width: 100%;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-h2, h3 {
-    grid-column: 1;
 }
 nav a, nav a:visited {
     color:#cef3ec;
