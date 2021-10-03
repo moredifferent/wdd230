@@ -27,15 +27,15 @@ h1, h3 {
     background-color: #2e4057;
 }
 #top {
-    animation:blinkingText 2.5s infinite;
+    animation:blinkingText 4s infinite;
     }
     @keyframes blinkingText{
-    0%{   color: #000;   }
+    0%{   color: yellow;   }
     20%{  color: orange; }
     40%{  color: magenta;}
     60%{  color: cyan;   }
     80%{  color: lime;   }
-    100%{ color: #000;   }
+    100%{ color: yellow;   }
 }
 h2 {
     color: #2e4057;
