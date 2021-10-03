@@ -12,6 +12,9 @@ header {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+#logo {
+    max-width: 100%;
+}
 nav ul {
     list-style: none;
     display: grid;
@@ -41,23 +44,28 @@ h2 {
     color: #2e4057;
     background-color: #28afb0;
 }
-h1, h2, h3, nav {
+h1, h2, nav {
     border-radius: 10px;
     padding: .3em;
+}
+h3 {
+    border-radius: 10px;
+    padding: .6em; 
+}
+h4 {
+    color: #2e4057;
+    padding: 1em;
 }
 nav {
     background-color: #8c86aa;
 }
-img {
+#snips {
     max-width: 100%;
     grid-column-start: 2;
     grid-column-end: 4;
 }
-#p1, #p2, #p3 {
+h2, h3 {
     grid-column: 1;
-}
-h3 {
-    grid-column: 2;
 }
 nav a, nav a:visited {
     color:#cef3ec;
