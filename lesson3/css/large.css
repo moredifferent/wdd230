@@ -1,11 +1,16 @@
-@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+@import url(<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap");
 #content {
     max-width: 960px;
     margin: 0 auto;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
 }
 header {
     text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 nav ul {
     list-style: none;
@@ -15,25 +20,33 @@ nav ul {
     grid-row-start: 2;
   }
 body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
-    background-color: darkslategrey;
+    background-color: #cef3ec;
 }
 h1, h3 {
-    color: silver;
-    background-color: teal;
+    color: #28afb0;
+    background-color: #2e4057;
+}
+#top {
+    animation:blinkingText 2s infinite;
+    }
+    @keyframes blinkingText{
+    0%{   color: #000;   }
+    20%{  color: orange; }
+    40%{  color: magenta;}
+    60%{  color: cyan;   }
+    80%{  color: lime;   }
+    100%{ color: #000;   }
 }
 h2 {
-    color: teal;
-    background-color: silver;
+    color: #2e4057;
+    background-color: #28afb0;
 }
 h1, h2, h3, nav {
     border-radius: 10px;
     padding: .3em;
 }
 nav {
-    background-color: lightslategray;
+    background-color: #8c86aa;
 }
 img {
     max-width: 300px;
@@ -46,10 +59,10 @@ h3 {
     grid-column: 2;
 }
 nav a, nav a:visited {
-    color:navy;
+    color:#cef3ec;
 }
 nav a:hover {
-    color: blue;
+    color: #aef78e;
 }
 nav a:active {
     color:chartreuse;
