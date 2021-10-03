@@ -43,7 +43,7 @@ h1, h3 {
 h2 {
     color: #2e4057;
     background-color: #28afb0;
-    grid-row-start: 3;
+    grid-row-start: 1;
 }
 h1, h2, nav {
     border-radius: 10px;
@@ -55,7 +55,7 @@ h3 {
 }
 #snips {
     max-width: 100%;
-    grid-row-start: 3;
+    grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 4;
 }
