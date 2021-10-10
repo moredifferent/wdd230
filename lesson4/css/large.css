@@ -12,8 +12,8 @@ header {
     grid-column-start: 1;
     grid-column-end: 4;
 }
-img {
-    max-width: 10%;
+#logo {
+    max-width: 20%;
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -25,15 +25,12 @@ header h4 {
     grid-column-start: 2;
     grid-row-start: 2;
 }
-#logo {
-    max-width: 50%;
-}
 nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
     margin: 0;
-    grid-row-start: 1;
+    grid-row-start: 3;
   }
 body {
     background-color: #cef3ec;
