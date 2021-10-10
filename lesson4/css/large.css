@@ -13,7 +13,7 @@ header {
     grid-column-end: 4;
 }
 img {
-    max-width: 20%;
+    max-width: 10%;
     grid-column-start: 1;
     grid-column-end: 2;
 }
