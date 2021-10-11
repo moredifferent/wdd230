@@ -4,6 +4,7 @@
     margin: 0 auto;
     font-family: 'Merriweather Sans', sans-serif;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
 }
 #logo {
@@ -23,6 +24,9 @@ header h4 {
 }
 nav ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+    margin: 0;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -42,9 +46,6 @@ h2 {
 h1, h2, nav, footer {
     border-radius: 10px;
     padding: .3em;
-}
-footer {
-    grid-row-start: 6;
 }
 h4 {
     color: #2e4057;
