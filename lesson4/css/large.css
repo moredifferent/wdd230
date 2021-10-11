@@ -27,7 +27,7 @@ header h4 {
     grid-row-start: 2;
 }
 nav {
-    grid-row-start: 3;
+    grid-row-start: 4;
 }
 nav ul {
     list-style: none;
@@ -45,7 +45,7 @@ h1 {
 h2 {
     color: #2e4057;
     background-color: #28afb0;
-    grid-row-start: 4;
+    grid-row-start: 5;
 }
 h1, h2, nav, footer {
     border-radius: 10px;
