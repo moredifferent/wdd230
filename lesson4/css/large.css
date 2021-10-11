@@ -15,6 +15,8 @@ header {
     max-width: 20%;
     grid-column-start: 1;
     grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 header h1 {
     grid-column-start: 2;
@@ -34,23 +36,18 @@ nav ul {
 body {
     background-color: #cef3ec;
 }
-h1, h3 {
+h1 {
     color: #28afb0;
     background-color: #2e4057;
 }
 h2 {
     color: #2e4057;
     background-color: #28afb0;
-    grid-row-start: 3;
+    grid-row-start: 4;
 }
 h1, h2, nav {
     border-radius: 10px;
     padding: .3em;
-}
-h3 {
-    border-radius: 10px;
-    padding: .6em; 
-    grid-row-start: 4;
 }
 h4 {
     color: #2e4057;
@@ -62,10 +59,10 @@ nav, footer {
 nav a, nav a:visited {
     color:#cef3ec;
 }
-nav a:hover {
+nav a:hover, footer a:hover {
     color: #aef78e;
 }
-nav a:active {
+nav a:active, footer a:active {
     color:chartreuse;
 }
 #datelm {
