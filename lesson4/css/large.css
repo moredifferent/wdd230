@@ -7,8 +7,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
 }
+header {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 #logo {
-    max-width: 20%;
+    max-width: 100%;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -24,6 +29,9 @@ header h4 {
 }
 nav ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+    margin: 0;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3;
