@@ -8,7 +8,6 @@
     grid-gap: 1em;
 }
 header, nav, body, footer {
-    text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
 }
