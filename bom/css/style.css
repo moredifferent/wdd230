@@ -17,7 +17,12 @@ h1 {
 }
 header {
 	color: #bed;
-	background-color: blue;
+	background-color: cornflowerblue;
+	padding: 0.5rem;
+	margin: 0.5rem auto;
+}
+header a, header a:visited {
+	color: #bed;
 }
 main {
 	margin: 0.5rem auto;
