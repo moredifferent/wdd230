@@ -34,6 +34,10 @@ button {
 	font-size: 1.1rem;
 }
 
+.list button {
+	color: red;
+}
+
 input {
 	width: 200px;
 }
