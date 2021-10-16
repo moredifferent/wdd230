@@ -38,6 +38,7 @@ body {
 }
 #bottom iframe {
     grid-column: 1;
+    padding: 1em;
 }
 h1 {
     color: #28afb0;
