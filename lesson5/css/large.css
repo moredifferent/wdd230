@@ -67,9 +67,8 @@ nav a:active, footer a:active {
 footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 55px;
   }
-  footer span {
+footer p {
     grid-column: 1;
     justify-self: start;
   }
@@ -78,7 +77,7 @@ footer {
     justify-self: end;
     max-width: 100%;
   }
-  .social img {
+.social img {
     max-height: 45px;
     margin-left: 1em;
     margin-top: 5px;
