@@ -81,6 +81,7 @@ footer {
   }
 footer p {
     grid-column-start: 1;
+    grid-column-end: 3;
     justify-self: start;
   }
 .social {
