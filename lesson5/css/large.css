@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap");
 #content {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 15vh auto;
     font-family: 'Merriweather Sans', sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
