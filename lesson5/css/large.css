@@ -18,7 +18,7 @@ header {
     grid-gap: 1em;
 }
 #logo {
-    max-width: 20%;
+    max-width: 50%;
 }
 nav ul {
     list-style: none;
@@ -59,4 +59,9 @@ nav a:active, footer a:active {
 }
 #datelm {
     color: yellow;
+}
+#current {
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #cef3ec;
 }
