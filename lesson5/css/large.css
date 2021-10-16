@@ -1,15 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap");
-#content {
-    max-width: 80%;
-    margin: 0 auto;
-    font-family: 'Merriweather Sans', sans-serif;
+header, nav, body, footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-}
-header, nav, body, footer {
     grid-column-start: 1;
     grid-column-end: 4;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 header {
     background-color: #cef3ec;
@@ -29,6 +25,10 @@ nav ul {
   }
 body {
     background-color: whitesmoke;
+}
+.content {
+    max-width: 80%;
+    margin: 0 auto;  
 }
 #bottom {
     background-color: #cef3ec;
