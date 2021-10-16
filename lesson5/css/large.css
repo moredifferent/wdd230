@@ -64,3 +64,14 @@ nav a:active, footer a:active {
     font-weight: 700;
     color:chartreuse;
 }
+.social {
+    grid-column: 3;
+    justify-self: end;
+    max-width: 100%;
+  }
+  .social img {
+    max-height: 45px;
+    margin-left: 1em;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
