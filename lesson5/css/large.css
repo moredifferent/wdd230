@@ -1,0 +1,62 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap");
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+header, nav, body, footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+header {
+    background-color: #cef3ec;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+#logo {
+    max-width: 20%;
+}
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+    margin: 0;
+  }
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    color: #28afb0;
+    background-color: #2e4057;
+}
+h2 {
+    color: #2e4057;
+    background-color: #28afb0;
+}
+h1, h2, nav, footer {
+    border-radius: 10px;
+    padding: .3em;
+}
+h4 {
+    color: #2e4057;
+    padding: 1em;
+}
+nav, footer {
+    background-color: #8c86aa;
+}
+nav a, nav a:visited {
+    color:#cef3ec;
+}
+nav a:hover, footer a:hover {
+    color: #aef78e;
+}
+nav a:active, footer a:active {
+    color:chartreuse;
+}
+#datelm {
+    color: yellow;
+}
