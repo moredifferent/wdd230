@@ -34,7 +34,8 @@ body {
     margin: 0 auto;  
 }
 #hero img {
-    max-width: 80vh;
+    max-width: 80vw;
+    margin: 0 auto;
 }
 #bottom {
     background-color: #cef3ec;
