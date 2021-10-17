@@ -30,6 +30,9 @@ body {
     max-width: 80%;
     margin: 0 auto;  
 }
+#hero img {
+    max-width: 80vh;
+}
 #bottom {
     background-color: #cef3ec;
     display: grid;
