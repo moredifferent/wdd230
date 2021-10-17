@@ -5,7 +5,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     font-family: 'Merriweather Sans', sans-serif;
 }
-header, nav, footer {
+header, nav, footer, main {
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -17,6 +17,7 @@ header {
 }
 #logo {
     max-width: 50%;
+    grid-column: 1;
     align-self: flex-end;
 }
 nav ul {
@@ -37,17 +38,14 @@ body {
 }
 #bottom {
     background-color: #cef3ec;
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-gap: 1em;
 }
 #bottom iframe {
-    grid-column: 1;
     padding: 1em;
 }
 h1 {
     color: #28afb0;
     background-color: #2e4057;
+    grid-column-start: 2;
 }
 h2 {
     color: #2e4057;
@@ -60,6 +58,7 @@ h1, h2, nav, footer {
 h4 {
     color: #2e4057;
     padding: 1em;
+    grid-column-start: 2;
 }
 nav, footer {
     background-color: #8c86aa;
