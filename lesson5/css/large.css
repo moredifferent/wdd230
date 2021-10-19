@@ -22,6 +22,7 @@ header {
     grid-column: 1;
     grid-row: 1/3;
     justify-self: end;
+    padding-top: 1em;
 }
 nav ul {
     list-style: none;
@@ -39,7 +40,7 @@ h3, main p, main h4 {
 }
 #bottom {
     background-color: #cef3ec;
-    max-width: 100vw;
+    width: 100vw;
 }
 h1 {
     color: #28afb0;
