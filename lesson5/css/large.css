@@ -40,6 +40,8 @@ h1 {
     color: #28afb0;
     background-color: #2e4057;
     grid-column: 2;
+    margin-left: 10vw;
+    padding: 1em;
 }
 h2 {
     color: #2e4057;
@@ -87,12 +89,12 @@ footer p {
     grid-column: 3;
     justify-self: end;
     max-width: 100%;
+    padding-right: 10vw;
   }
 .social img {
     max-height: 45px;
     padding-left: 1em;
     margin-top: 5px;
-    margin-right: 10vw;
   }
 @media screen and (max-width: 550px) { 
     header, nav, body, footer {
