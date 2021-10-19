@@ -4,6 +4,7 @@ body {
     grid-gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     font-family: 'Merriweather Sans', sans-serif;
+    padding-left: 10vw auto;
 }
 header, nav, footer, main {
     grid-column-start: 1;
@@ -26,8 +27,6 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
     margin: 0;
-    padding-left: 10vw;
-    padding-right: 10vw;
   }
 body {
     background-color: whitesmoke;
@@ -39,13 +38,9 @@ body {
 #bottom {
     background-color: #cef3ec;
 }
-#bottom iframe {
-    padding: 1em;
-}
 h1 {
     color: #28afb0;
     background-color: #2e4057;
-    grid-column-start: 2;
 }
 h2 {
     color: #2e4057;
@@ -53,12 +48,9 @@ h2 {
 }
 h1, h2, nav, footer {
     border-radius: 10px;
-    padding: .3em;
 }
 h4 {
     color: #2e4057;
-    padding: 1em;
-    grid-column-start: 3;
 }
 nav, footer {
     background-color: #8c86aa;
