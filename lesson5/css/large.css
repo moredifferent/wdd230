@@ -38,9 +38,11 @@ nav ul {
 h3, main p, main h4 {
     margin-left: 10vw;
 }
+.weatherwidget-io {
+    height: 10vmax;
+}
 #bottom {
     background-color: #cef3ec;
-    width: 100vw;
 }
 h1 {
     color: #28afb0;
