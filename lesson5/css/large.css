@@ -5,7 +5,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     font-family: 'Merriweather Sans', sans-serif;
     background-color: whitesmoke;
-    padding-left: 10vw;
 }
 header, nav, footer, main {
     grid-column-start: 1;
@@ -21,6 +20,7 @@ header {
 #logo {
     max-width: 20vw;
     grid-column: 1;
+    grid-row-start: 1;
     grid-row-end: 3;
 }
 nav ul {
