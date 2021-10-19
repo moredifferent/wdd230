@@ -16,9 +16,8 @@ header {
     grid-gap: 1em;
 }
 #logo {
-    max-width: 50%;
+    max-width: 100%;
     grid-column: 1;
-    align-self: flex-end;
 }
 nav ul {
     list-style: none;
@@ -30,12 +29,13 @@ body {
     background-color: whitesmoke;
 }
 .content {
-    max-width: 80%;
-    margin: 0 auto;  
+    max-width: 80;
+    margin-left: 10vw;  
+    text-align: center;
 }
 #hero img {
     max-width: 80vw;
-    margin: 0 auto;
+    margin-left: 10vw;
 }
 #bottom {
     background-color: #cef3ec;
@@ -59,7 +59,7 @@ h1, h2, nav, footer {
 h4 {
     color: #2e4057;
     padding: 1em;
-    grid-column-start: 2;
+    grid-column-start: 3;
 }
 nav, footer {
     background-color: #8c86aa;
