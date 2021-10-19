@@ -29,6 +29,7 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
     margin: 0;
+    padding: 1em;
   }
 #hero img {
     max-width: 80vw;
@@ -41,13 +42,14 @@ h1 {
     color: #28afb0;
     background-color: #2e4057;
     grid-column: 2;
-    margin-left: 10vw;
     padding: 1em;
-    justify-self: start;
+    text-align: left;
 }
 h2 {
     color: #2e4057;
     background-color: #28afb0;
+    margin-left: 10vw;
+    padding: 1em;
 }
 h1, h2, nav, footer {
     border-radius: 10px;
@@ -91,7 +93,6 @@ footer p {
     grid-column: 3;
     justify-self: end;
     max-width: 100%;
-    padding-right: 10vw;
   }
 .social img {
     max-height: 45px;
