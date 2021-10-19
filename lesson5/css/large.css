@@ -22,6 +22,7 @@ header {
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 3;
+    justify-self: end;
 }
 nav ul {
     list-style: none;
@@ -42,6 +43,7 @@ h1 {
     grid-column: 2;
     margin-left: 10vw;
     padding: 1em;
+    justify-self: start;
 }
 h2 {
     color: #2e4057;
