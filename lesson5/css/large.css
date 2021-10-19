@@ -39,7 +39,7 @@ h3, main p, main h4 {
     margin-left: 10vw;
 }
 .weatherwidget-io {
-    height: 10vmax;
+    height: 15vmax;
 }
 #bottom {
     background-color: #cef3ec;
@@ -66,6 +66,7 @@ header h4 {
     grid-column: 2;
     grid-row: 2;
     text-align: right;
+    margin-top: -1em;
 }
 nav, footer {
     background-color: #8c86aa;
