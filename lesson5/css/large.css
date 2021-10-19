@@ -16,22 +16,21 @@ header {
     grid-gap: 1em;
 }
 #logo {
-    max-width: 100%;
-    grid-column: 1;
+    max-width: 20vw;
+}
+header span {
+    grid-column: 2;
 }
 nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
     margin: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 body {
     background-color: whitesmoke;
-}
-.content {
-    max-width: 80;
-    margin-left: 10vw;  
-    text-align: center;
 }
 #hero img {
     max-width: 80vw;
