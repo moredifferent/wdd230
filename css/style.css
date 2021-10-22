@@ -14,9 +14,9 @@
         max-width: 200px;
         border: 5px solid white;
         box-shadow: 5px 5px 5px #2274a5;
-      } 
-      nav li {
-        text-justify: inter-cluster;
+      }
+      nav ul {
+        text-align: justify;
       }
       nav a {
         color: #3D5A80;
