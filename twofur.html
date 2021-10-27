@@ -7,13 +7,11 @@
  <style>
      body {
          text-align: center;
-         display: grid;
-         grid-template-columns: 1fr 1fr;
      }   
      img {
-         grid-column: 1/-1;
-         grid-row: 1;
+         position: relative;
          width: 100vw;
+         z-index: 0;
      }
      body:hover {
         animation:blinkingText 2s infinite;
@@ -28,8 +26,8 @@
      }
      button, h2 {
          background-color:darkslategray;
-         padding:0.5em;
-         grid-row: 1;
+         position:relative;
+         z-index: 1;
      }
  </style>
  <script>
