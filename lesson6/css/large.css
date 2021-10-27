@@ -38,15 +38,12 @@ nav ul {
   }   
 #hero img {
     max-width: 80vw;
-    margin-left: 10vw;
     grid-column: 1/-1;
     grid-row: 1;
-    margin-bottom: 1em;
   }  
 #wthrsm {
     grid-column: 1;
     grid-row: 1;
-    margin-left: 10vw;
     padding: 2em;
   }   
 h3, main p, main h4 {
@@ -54,7 +51,7 @@ h3, main p, main h4 {
 }
 #bottom {
     background-color: #cef3ec;
-    margin-right: 0%;
+    margin-right: -10vw;
 }
 h1 {
     color: #28afb0;
