@@ -41,7 +41,7 @@ nav ul {
     grid-column: 1/-1;
     grid-row: 1;
   }  
-#wthrsm {
+#wthrsm img {
     grid-column: 1;
     grid-row: 1;
     padding: 2em;
@@ -51,7 +51,7 @@ h3, main p, main h4 {
 }
 #bottom {
     background-color: #cef3ec;
-    margin-right: -10vw;
+    margin-right: 0vw;
 }
 h1 {
     color: #28afb0;
