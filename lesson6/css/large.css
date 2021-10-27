@@ -32,18 +32,14 @@ nav ul {
     margin: 0;
     padding: 1em;
   }
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }   
 #hero img {
     max-width: 80vw;
-    grid-column: 1/-1;
-    grid-row: 1;
+    position: relative;
+    z-index: 0;
   }  
-#wthrsm img {
-    grid-column: 1;
-    grid-row: 1;
+#wthrsm {
+    position: relative;
+    z-index: 1;
     padding: 2em;
   }   
 h3, main p, main h4 {
