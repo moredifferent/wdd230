@@ -32,23 +32,24 @@ nav ul {
     margin: 0;
     padding: 1em;
   }
-#hero {
-    background-image: element("#pic");
-}
 #pic {
+    position: relative;
     max-width: 80vw;
     margin-left: 10vw;
+    z-index: 0;
   }  
 #wthr {
+    position: relative;
     margin-left: 10vw;
     padding: 2em;
+    z-index: 1;
   }   
 h3, main p, main h4 {
     margin-left: 10vw;
 }
 #bottom {
     background-color: #cef3ec;
-    margin-right: -10vw;
+    margin-right: -5vw;
 }
 h1 {
     color: #28afb0;

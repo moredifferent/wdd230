@@ -8,11 +8,6 @@
      body {
          text-align: center;
      }   
-     img {
-         position: relative;
-         width: 100vw;
-         z-index: 50;
-     }
      body:hover {
         animation:blinkingText 2s infinite;
         }
@@ -24,11 +19,22 @@
         80%{ opacity: 30%; }
         100%{ opacity: 60%; }
      }
+     #whole {
+         position: relative;
+         text-align: center;
+     }
+     #part {
+         position: absolute;
+         top: 5%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+     }
+     img {
+         width: 100vw;
+     }
      button, h2 {
          background-color:darkslategray;
          color:whitesmoke;
-         position: relative;
-         z-index: 100;
      }
  </style>
  <script>
@@ -39,9 +45,9 @@
  </script>
 </head>
 <body>
- <div>
+ <div id="whole">
  <img src="images/fwotur.jpg" alt="the fwotur">
- <div><h2>the future is unwritten</h2>
+ <div id="part"><h2>the future is unwritten</h2>
  <button type="button" onclick="twofutur()">to the future</button></div>
 </div>
 </body>
