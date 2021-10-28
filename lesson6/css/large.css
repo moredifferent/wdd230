@@ -32,12 +32,13 @@ nav ul {
     margin: 0;
     padding: 1em;
   }
-#pic {
+#hero {
     position: relative;
-    max-width: 80vw;
     margin-left: 10vw;
-    z-index: 0;
   }  
+#pic {
+    width: 80vw;
+}
 #wthr {
     position: absolute;
     top: 10%;
