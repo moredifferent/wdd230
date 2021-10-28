@@ -35,10 +35,9 @@ nav ul {
 #hero {
     position: relative;
     margin-left: 10vw;
-    width: 80vw;
   }  
 #pic {
-    max-width: 80vw;
+    width: 80vw;
 }
 #wthr {
     position: absolute;
