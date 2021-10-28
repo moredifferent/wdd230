@@ -35,6 +35,7 @@ nav ul {
 #hero {
     position: relative;
     margin-left: 10vw;
+    width: 80vw;
   }  
 #pic {
     width: 80vw;
