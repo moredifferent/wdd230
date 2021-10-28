@@ -32,17 +32,19 @@ nav ul {
     margin: 0;
     padding: 1em;
   }
-#hero {
+#hero img {
     max-width: 80vw;
     position: relative;
     margin-left: 10vw;
     z-index: 0;
+    grid-row: 5;
   }  
-#wthrsm {
+#wthrsm img {
     position: relative;
     margin-left: 10vw;
     z-index: 1;
     padding: 2em;
+    grid-row: 5;
   }   
 h3, main p, main h4 {
     margin-left: 10vw;
