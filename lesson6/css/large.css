@@ -39,10 +39,9 @@ nav ul {
     z-index: 0;
   }  
 #wthr {
-    position: relative;
-    margin-left: 10vw;
-    padding: 2em;
-    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 10%;
   }   
 h3, main p, main h4 {
     margin-left: 10vw;
