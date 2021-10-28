@@ -36,8 +36,8 @@ nav ul {
     position: relative;
     margin-left: 10vw;
   }  
-picture {
-    width: 40vw;
+#hero picture {
+    width: 80vw;
 }
 #wthr {
     position: absolute;
