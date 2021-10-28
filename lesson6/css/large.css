@@ -33,16 +33,14 @@ nav ul {
     padding: 1em;
   }
 #hero {
-    background-image: element("#hero img");
+    background-image: element("#pic");
+}
+#pic {
     max-width: 80vw;
-    position: relative;
     margin-left: 10vw;
-    z-index: 0;
   }  
-#wthrsm img {
-    position: relative;
+#wthr {
     margin-left: 10vw;
-    z-index: 1;
     padding: 2em;
   }   
 h3, main p, main h4 {
