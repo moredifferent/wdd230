@@ -15,12 +15,11 @@
         border: 5px solid white;
         box-shadow: 5px 5px 5px #2274a5;
       }
-      nav ul li {
-        text-align:left;
+      nav ul {
+        text-align:justify;
       }
       nav a {
         color: #3D5A80;
-        text-align: right;
       }
       nav a:visited {
         color: #3D5A80;
