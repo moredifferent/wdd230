@@ -37,7 +37,7 @@ nav ul {
     margin-left: 10vw;
   }  
 picture {
-    width: 80vw;
+    width: 40vw;
 }
 #wthr {
     position: absolute;
@@ -49,7 +49,7 @@ h3, main p, main h4 {
 }
 #bottom {
     background-color: #cef3ec;
-    margin-right: -10vw;
+    margin-right: -8vw;
 }
 h1 {
     color: #28afb0;
