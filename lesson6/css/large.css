@@ -32,11 +32,18 @@ nav ul {
     margin: 0;
     padding: 1em;
   }
+img {
+    max-width: 80vw;
+}
 #hero {
     position: relative;
     margin-left: 10vw;
+    width: 80vw;
   }  
 #hero picture {
+    width: 80vw;
+}
+#pic {
     width: 80vw;
 }
 #wthr {
