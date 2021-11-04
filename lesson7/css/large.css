@@ -126,7 +126,7 @@ footer p {
     margin-top: 5px;
   }
 #gallery {
-    grid-column: span;
+    grid-column: 1/4;
 }
 .gimage {
     box-sizing: border-box;
@@ -135,6 +135,9 @@ footer p {
 }
 .gimage:hover {
     box-shadow: 5px 5px 5px #3D5A80;
+}
+figcaption {
+    background-color: white;
 }
 @media screen and (max-width: 960px) {
     body {
