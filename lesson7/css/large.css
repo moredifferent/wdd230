@@ -125,11 +125,6 @@ footer p {
     padding-left: 1em;
     margin-top: 5px;
   }
-#gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
-}
 .gimage {
     box-sizing: border-box;
     border: 5px solid white;
@@ -139,11 +134,10 @@ footer p {
     box-shadow: 5px 5px 5px #3D5A80;
 }
 @media screen and (max-width: 960px) {
-    #gallery {
+    body {
         display: grid;
+        grid-gap: 1em;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1em;
-    }
 }
 @media screen and (max-width: 550px) { 
     header, nav, body, footer {
