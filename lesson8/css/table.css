@@ -13,7 +13,7 @@
 table {
 	margin: 10px auto;
 	border: 1px solid var(--border);
-	box-shadow: 0 0 30px var(--shadow);
+	box-shadow: 10 10 10px var(--shadow);
     font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
 }
@@ -37,12 +37,6 @@ th, td {
 	border: 1px solid var(--border);
 }
 
-#trwon {
-	background-color: var(--back2);
-    color: var(--foredark);
-    font-size: 2rem;
-}
-
 #trtoo {
 	background-color: var(--back3);
     color: var(--forelight);
@@ -58,7 +52,14 @@ tbody tr:nth-child(even) {
 
 #nov {
     background-color: var(--back3); 
+    color: var(--forelight);
 }
 #bf {
     font-style: italic;
+}
+
+#trwon {
+	background-color: var(--back2);
+    color: var(--foredark);
+    font-size: 2rem;
 }
