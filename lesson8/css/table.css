@@ -14,7 +14,7 @@ table {
 	margin: 10px auto;
 	border: 1px solid var(--border);
 	box-shadow: 0 0 30px var(--shadow);
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
 }
 
@@ -54,4 +54,11 @@ td {
 
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
+}
+
+#nov {
+    background-color: var(--back3); 
+}
+#bf {
+    font-style: italic;
 }
