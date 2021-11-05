@@ -1,26 +1,25 @@
 :root {
-	--back: hsla(160, 23%, 92%, 1);
-    --back2: hsla(188, 35%, 63%, .5);
-    --foredark: hsla(0,0%,10%,1);
-	--forelight: hsla(0,0%,100%,1);
-	--border: hsl(0,0%,20%);
-	--borderlight: hsl(0,0%,33%);
+	--back: hsl(160, 23%, 92%);
+    --back2: hsl(188, 35%, 63%);
+    --back3: hsl(203, 28%, 52%);
+    --foredark: hsl(0,0%,0%);
+	--forelight: hsl(0,0%,100%);
+	--border: hsl(0,0%,33%);
 	--shadow: hsl(0,0%,50%);
 	--zebra: hsl(135, 100%, 95%, 1);
 }
 
 table {
 	margin: 10px auto;
-	border: thin solid var(--border);
+	border: 1px solid var(--border);
 	box-shadow: 0 0 30px var(--shadow);
-	border-collapse: collapse;
     font-family: Ubuntu, sans-serif;
 }
 
 caption {
     padding: 10px;
     caption-side: bottom;
-	color: var(--back);
+	color: var(--foredark);
 	font-size: .85rem;
     background-color: var(--back2);
 }
@@ -32,11 +31,18 @@ tr:first-child th {
 
 th, td {
 	padding: 7px 15px;
-	border: 1px solid var(--borderlight);
+	border: 1px solid var(--border);
 }
 
-th {
+#trwon {
 	background-color: var(--back2);
+    color: var(--foredark);
+    font-size: 2rem;
+}
+
+#trtoo {
+	background-color: var(--back3);
+    color: var(--forelight);
 }
 
 td {
