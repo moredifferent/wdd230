@@ -5,14 +5,15 @@
     --back3: hsl(203, 28%, 52%);
     --foredark: hsl(0,0%,0%);
 	--forelight: hsl(0,0%,100%);
-	--border: hsl(0,0%,33%);
-	--shadow: hsl(0,0%,50%);
+	--border: hsl(0,0%,50%);
+	--shadow: hsl(0,0%,33%);
 	--zebra: hsl(135, 100%, 95%, 1);
 }
 
 table {
 	margin: 10px auto;
 	border: 1px solid var(--border);
+    box-sizing: border-box;
 	box-shadow: 10 10 10px var(--shadow);
     font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
@@ -27,7 +28,7 @@ caption {
     border: 1px solid var(--border);
 }
 
-tr:first-child th {
+tbody tr:first-child th {
 	background-color: var(--back);
 	color: var(--foredark);
 }
