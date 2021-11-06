@@ -13,7 +13,7 @@
 table {
 	margin: 10px auto;
 	border: 1px solid var(--border);
-	box-shadow: 0 0 10px var(--shadow);
+	box-shadow: 10px 10px 10px #3D5A80;
     font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
 }
