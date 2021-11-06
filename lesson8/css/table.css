@@ -18,13 +18,10 @@ table {
     border-collapse: collapse;
 }
 
-caption {
-    padding: 10px;
-    caption-side: bottom;
+tfoot {
 	color: var(--foredark);
 	font-size: .85rem;
     background-color: var(--back2);
-    border: 1px solid var(--border);
 }
 
 tbody tr:first-child th {
