@@ -35,7 +35,7 @@
         Zip Code<input type="number" name="zip"><br>
         Storm Date<input type="date" name="date">
         Storm Type<input type="text" name="type"><br>
-        Storm Severity<input type="range" pattern="[1-10]" name="severity">
+        Storm Severity<input type="range" min="1" max="10" step="1" list="tickmarks" name="severity">
         Storm Region<select name="region">
             <option default disabled>Select Region...</option>  
             <option>Preston</option>  
