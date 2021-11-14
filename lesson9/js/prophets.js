@@ -4,7 +4,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    // console.table(jsonObject);  // temporary checking for valid response and data parsing
     prophets.forEach(prophet => {
       let card = document.createElement('section');
       let pName = document.createElement('h2');
