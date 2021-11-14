@@ -5,16 +5,24 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
+    prophets.forEach(prophet => {
+      let card = document.createElement('section');
+      let pName = document.createElement('h2');
+      let pBirthDate = document.createElement('p');
+      let pBirthPlace = document.createElement('p');
+      let pPortrait = document.createElement('img');
+
+      pName.textContent = `${prophet.name} ${prophet.lastname}`;
+      pBirthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+      pBirthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+      pPortrait.src = prophet.imageurl;
+      pPortrait.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}`
+
+      card.appendChild(pName);
+      card.appendChild(pBirthDate);
+      card.appendChild(pBirthPlace);
+      card.appendChild(pPortrait);
+
+      document.querySelector('div.cards').appendChild(card);
   });
-const prophets = jsonObject['prophets'];
-for (let i = 0; i < prophets.length; i++ ) {
-let card = document.createElement('section');
-let h2 = document.createElement('h2');
-
-h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-
-card.appendChild(h2);
-
-document.querySelector('div.cards').appendChild(card);
-image.setAttribute('src', prophets[i].imageurl);
-}
+});
