@@ -8,10 +8,10 @@ fetch(requestURL)
     const prophets = jsonObject['prophets'];
     prophets.forEach(prophet => {
       let card = document.createElement('section');
-      let pName = document.createElement('h2');
-      let pBirthDate = document.createElement('p');
-      let pBirthPlace = document.createElement('p');
-      let pPortrait = document.createElement('img');
+      let name = document.createElement('h2');
+      let bd = document.createElement('p');
+      let pob = document.createElement('p');
+      let picp = document.createElement('img');
 
       pName.textContent = `${prophet.name} ${prophet.lastname}`;
       pBirthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
@@ -19,10 +19,10 @@ fetch(requestURL)
       pPortrait.src = prophet.imageurl;
       pPortrait.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}`
 
-      card.appendChild(pName);
-      card.appendChild(pBirthDate);
-      card.appendChild(pBirthPlace);
-      card.appendChild(pPortrait);
+      card.appendChild(name);
+      card.appendChild(bd);
+      card.appendChild(pob);
+      card.appendChild(picp);
 
       document.querySelector('div.cards').appendChild(card);
   });
