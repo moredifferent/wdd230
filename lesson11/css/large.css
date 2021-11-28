@@ -59,7 +59,8 @@ h3, main p, main h4, form {
     margin-right: -9vw;
 }
 .weatherwidget-io {
-    max-width: 80vw;
+    max-width: 100%;
+    max-height: 100%;
 }
 h1 {
     color: #28afb0;
