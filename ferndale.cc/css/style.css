@@ -1,0 +1,22 @@
+body {
+    background-color: lightcyan;
+}
+header, nav, footer {
+    font-family: 'Readex Pro', sans-serif;
+}
+header, footer {
+    background-color: midnightblue;
+    color: lightsteelblue;
+    text-align: center;
+}
+nav {
+    background-color: darkcyan;
+    color:palegreen;
+}
+#current {
+    color: springgreen;
+    font-weight: bold;
+}
+main {
+    font-family: 'Crete Round', serif;
+}
