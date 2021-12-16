@@ -30,3 +30,8 @@ nav a, nav a:visited {
 main {
     font-family: 'Crete Round', serif;
 }
+form {
+    background-color: lightsteelblue;
+    border: 4px midnightblue;
+    border-radius: 5px;
+}
