@@ -48,3 +48,10 @@ form {
 #banner {
     max-width: 100%;
 }
+.social {
+    text-align: right;
+}
+.social img {
+    max-height: 55px;
+    padding: 1em;
+}
