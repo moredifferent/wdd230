@@ -37,6 +37,7 @@ form {
     border-color:  midnightblue;
     border-radius: 5px;
     position: center;
+    padding: 1em;
 }
 textarea {
     width: 250px;
