@@ -20,7 +20,7 @@ nav ul {
     padding: 1.5em;
     text-align: center;
 }
-nav a, nav a:visited {
+nav a, nav a:visited, footer a, footer a:visited {
     color:lightcyan;
 }
 #current {
