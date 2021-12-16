@@ -49,7 +49,7 @@ footer {
     padding: 2em;
 }
 #banner {
-    max-width: 100%;
+    max-width: 100vw;
 }
 #directory a {
     margin: 1em;
