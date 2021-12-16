@@ -39,3 +39,12 @@ form {
     margin: auto;
     padding: 1em;
 }
+#pics {
+    text-align: center;
+}
+#pics img {
+    padding: 5em;
+}
+#banner {
+    max-width: 100%;
+}
