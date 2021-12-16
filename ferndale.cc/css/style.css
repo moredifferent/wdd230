@@ -18,9 +18,10 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
     margin: 0;
     padding: 2em;
+    text-align: center;
 }
 nav a, nav a:visited {
-    color:palegreen;
+    color:mediumseagreen;
 }
 #current {
     color: springgreen;
