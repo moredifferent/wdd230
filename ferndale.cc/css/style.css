@@ -17,7 +17,7 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
     margin: 0;
-    padding: 2em;
+    padding: 1.5em;
     text-align: center;
 }
 nav a, nav a:visited {
