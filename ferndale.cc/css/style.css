@@ -39,14 +39,23 @@ form {
     margin: auto;
     padding: 1em;
 }
+footer {
+    margin-top: 2em;
+}
 #pics {
     text-align: center;
 }
 #pics img {
-    padding: 5em;
+    padding: 2em;
 }
 #banner {
     max-width: 100%;
+}
+#directory a {
+    margin: 1em;
+}
+caption {
+    background-color: lightsteelblue;
 }
 .social {
     text-align: right;
