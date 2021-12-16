@@ -34,9 +34,13 @@
             Email:<input type="email" required> Phone:<input type="tel"><br>
             Business Name:<input type="text" required> Business Website:<input type="url"><br>
             Business Address:<input type="text"><br>
-            Membership Level:<input type="radio" value="Non-profit ($100)"><input type="radio" value="Bronze ($200)"><input type="radio" value="Silver ($400)"><input type="radio" value="Gold ($1000)"><br>
+            Membership Level:
+            <input type="radio" name="member type" value="Non-profit ($100)"><label>Non-profit ($100)</label>
+            <input type="radio" name="member type" value="Bronze ($200)"><label>Bronze ($200)</label>
+            <input type="radio" name="member type" value="Silver ($400)"><label>Silver ($400)</label>
+            <input type="radio" name="member type" value="Gold ($1000)"><label>Gold ($1000)</label><br>
             Tell us about your business:<br>
-            <input type="textarea" required><button type="submit" onclick="conf()">Submit</button>
+            <input type="textarea" size="250" required><button onclick="conf()">Submit</button>
             <script src="wdd230/ferndale.cc/js/conf.js"></script>
         </form>
     </main>
