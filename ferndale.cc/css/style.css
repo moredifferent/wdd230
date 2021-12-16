@@ -11,6 +11,11 @@ header, footer {
 }
 nav {
     background-color: darkcyan;
+}
+nav ul {
+    list-style: none;
+}
+nav a, nav a:visited {
     color:palegreen;
 }
 #current {
